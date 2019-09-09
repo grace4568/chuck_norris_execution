@@ -17,8 +17,8 @@ app.layout = html.Div([
     html.H2('Chuck Norris execution method'),
     dcc.Dropdown(
         id='dropdown',
-        options=[{'label': i, 'value': i} for i in ['round-house kick to the face', 'punch', 'body-slam']],
-        value='punch'
+        options=[{'label': i, 'value': i} for i in ['round-house kick to the face', 'punch', 'body-slam','boxing']],
+        value='body-slam'
     ),
     html.Div(id='display-value')
 ])
